@@ -7,7 +7,18 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "Train",
-    "slug": "Train"
+    "name": "JobHunt",
+    "slug": "JobHunt",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c225c6f9-0722-4f39-9f0d-052f5bc4b9cc"
+      }
+    },
+    "android": {
+      "package": "com.ricnybo66.JobHunt"
+    }
   }
 }
